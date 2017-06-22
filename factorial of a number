@@ -1,0 +1,9 @@
+a=input("enter a num:")
+n=1
+if (a<0):
+    print ("invalid case")
+else:
+ for i in range (1,1+a):
+  n=n*i
+ print ("factorial of the given num is:")
+ print n
